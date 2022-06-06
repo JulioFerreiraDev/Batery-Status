@@ -1,0 +1,38 @@
+body {
+    background: rgb(31, 30, 30);
+}
+
+h3, p {
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#upDownButton {
+    position: relative;
+    left: 48%;
+    top: 150px;
+    background-color: rgb(31, 30, 30);
+    width: 49px;
+}
+
+#myprogressBar {
+    position: relative;
+    top: 55px;
+    left: 685px;
+    width: 0%;
+    height: 18px;
+    background-color: #f71717;
+    z-index: 9999;
+}
+
+#image {
+    position: absolute;
+    width: 30em;
+    top: 100px;
+}
